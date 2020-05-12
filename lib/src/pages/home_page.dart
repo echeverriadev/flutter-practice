@@ -19,6 +19,9 @@ class HomePage extends StatelessWidget{
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(onPressed: (){
+        print("HOLAA SI FUNCIONO");
+      }, child: Icon(Icons.add),)
     ) ;
   }
 }
